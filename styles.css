@@ -1,0 +1,35 @@
+body{
+    background-image: url("imgs/spacebackground.gif");
+}
+
+h1{
+    display: grid;
+    place-items: center;
+}
+
+.ascii-head{
+    color: aliceblue;
+}
+
+#about-me{
+    display: flexbox;
+    color: aliceblue;
+    background-color: blueviolet;
+}
+#my-list{
+    color: aliceblue;
+
+}
+#stuff1{
+    display: grid;
+    place-items: center;
+}
+#stuff2{
+    display: grid;
+    align-content: center;
+}
+
+
+#intro{
+    font-size: 30px;
+}
