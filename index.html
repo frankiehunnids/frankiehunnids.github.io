@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Frank Torres - Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav class="navbar">
+      <div class="nav-container">
+        <div class="nav-logo"></div>
+        <div class="nav-menu">
+          <a href="#services" class="nav-link">Services</a>
+          <a href="#work" class="nav-link">Work</a>
+          <a href="#contact" class="nav-link">Contact</a>
+        </div>
+        <button class="contact-btn">Contact</button>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="container">
+        <div class="hero-content">
+          <div class="hero-left">
+            <div class="hero-text">
+              <h1 class="hero-title">
+                Frank Torres<span class="accent">.</span>
+              </h1>
+              <div class="hero-subtitle">
+                <p class="intro-label"></p>
+                <h2 class="hero-description">
+                  Data Scientist/Software Engineer, based in NYC Metropolitan
+                  Area.
+                </h2>
+              </div>
+            </div>
+
+            <p class="hero-paragraph">
+              I’m a data scientist with a strong foundation in data analysis,
+              statistical modeling, and data-driven problem solving. I
+              specialize in working with Python, SQL, and data visualization
+              tools to extract insights, build predictive models, and
+              communicate findings clearly. My focus is on transforming raw data
+              into meaningful solutions that support decision-making and
+              real-world impact.
+            </p>
+
+            <div class="hero-actions">
+              <div class="social-links">
+                <a
+                  href="https://github.com/frankiehunnids"
+                  class="social-link"
+                  target="_blank"
+                >
+                  <i class="fab fa-github"></i>
+                </a>
+                <a
+                  href="https://www.linkedin.com/in/frank-torres-72a9b7225"
+                  class="social-link"
+                  target="_blank"
+                >
+                  <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="#" class="social-link">
+                  <i class="fas fa-envelope"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="hero-right">
+            <div class="profile-image">
+              <img
+                src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=600&fit=crop&crop=face"
+                alt="Profile"
+              />
+              <div class="decoration decoration-1"></div>
+              <div class="decoration decoration-2"></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Stats Section -->
+        <div class="stats">
+          <div class="stat-item">
+            <div class="stat-number">25+</div>
+            <div class="stat-label">Projects</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-number">3+</div>
+            <div class="stat-label">Years Experience</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-number">15+</div>
+            <div class="stat-label">Happy Clients</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-number">100%</div>
+            <div class="stat-label">Satisfaction</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="work" class="projects">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">My Projects</h2>
+          <p class="section-description">
+            A collection of projects I've worked on that showcase my skills in
+            data analystics, machine learning, and problem-solving. Each project
+            represents a unique challenge and solution.
+          </p>
+        </div>
+
+        <div class="projects-navigation">
+          <button class="nav-arrow nav-prev" id="prevBtn">
+            <i class="fas fa-arrow-left"></i>
+          </button>
+          <button class="nav-arrow nav-next" id="nextBtn">
+            <i class="fas fa-arrow-right"></i>
+          </button>
+        </div>
+
+        <div class="projects-grid" id="projectsGrid">
+          <div class="project-card">
+            <div class="project-image">
+              <img src="imgs/sleephealth.png" alt="Sleep vs Health project" />
+              <div class="project-overlay">
+                <a
+                  href="https://github.com/frankiehunnids/sleep-health-analysis-ml"
+                  class="project-btn project-btn-outline"
+                  target="_blank"
+                >
+                  <i class="fab fa-github"></i> Code
+                </a>
+              </div>
+            </div>
+            <div class="project-content">
+              <h3 class="project-title">Sleep Vs Health Analysis</h3>
+              <p class="project-description">
+                A data analysis and machine learning project exploring how
+                lifestyle factors affect sleep. Includes exploratory data
+                analysis and a linear regression model to predict sleep duration
+                based on variables such as stress level, physical activity, and
+                heart rate.
+              </p>
+              <div class="project-tags">
+                <span class="tag">Python</span>
+                <span class="tag">Jupyter Notebook</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <div class="project-image">
+              <img src="imgs/woldUni.png" alt="World Uni" />
+              <div class="project-overlay">
+                <a
+                  href="https://github.com/frankiehunnids/World-University-Analysis"
+                  class="project-btn project-btn-outline"
+                  target="_blank"
+                >
+                  <i class="fab fa-github"></i> Code
+                </a>
+              </div>
+            </div>
+            <div class="project-content">
+              <h3 class="project-title">World Universities Analysis</h3>
+              <p class="project-description">
+                Built a data science model to predict university quality scores
+                using features like teaching, research, and citations. Applied
+                exploratory data analysis, feature engineering, and linear
+                regression to uncover key performance drivers.
+              </p>
+              <div class="project-tags">
+                <span class="tag">Python</span>
+                <span class="tag">Excel</span>
+                <span class="tag">Jupyter Notebook</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <div class="project-image">
+              <img
+                src="https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?w=600&h=400&fit=crop"
+                alt="Portfolio Website"
+              />
+              <div class="project-overlay">
+                <a
+                  href="https://github.com/frankiehunnids/sleep-health-analysis-ml"
+                  class="project-btn project-btn-outline"
+                  target="_blank"
+                >
+                  <i class="fab fa-github"></i> Code
+                </a>
+              </div>
+            </div>
+            <div class="project-content">
+              <h3 class="project-title">Portfolio Website</h3>
+              <p class="project-description">
+                A responsive portfolio website showcasing creative work with
+                smooth animations and modern design.
+              </p>
+              <div class="project-tags">
+                <span class="tag">HTML/CSS</span>
+                <span class="tag">JavaScript</span>
+                <span class="tag">Animation</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <div class="project-image">
+              <img
+                src="https://images.unsplash.com/photo-1504608524841-42fe6f032b4b?w=600&h=400&fit=crop"
+                alt="Weather Dashboard"
+              />
+              <div class="project-overlay">
+                <button class="project-btn">
+                  <i class="fas fa-external-link-alt"></i> Live Demo
+                </button>
+                <button class="project-btn project-btn-outline">
+                  <i class="fab fa-github"></i> Code
+                </button>
+              </div>
+            </div>
+            <div class="project-content">
+              <h3 class="project-title">Weather Dashboard</h3>
+              <p class="project-description">
+                Real-time weather dashboard with location-based forecasts and
+                interactive maps.
+              </p>
+              <div class="project-tags">
+                <span class="tag">JavaScript</span>
+                <span class="tag">API Integration</span>
+                <span class="tag">Charts</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="pagination" id="pagination"></div>
+      </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+      <div class="container">
+        <div class="services-grid">
+          <div class="service-card service-primary">
+            <div class="service-icon">
+              <i class="fas fa-code"></i>
+            </div>
+            <h3 class="service-title">Full Stack Developer</h3>
+            <p class="service-description">
+              Building scalable web applications with modern technologies and
+              best practices.
+            </p>
+          </div>
+
+          <div class="service-card service-secondary">
+            <div class="service-icon">
+              <i class="fas fa-palette"></i>
+            </div>
+            <h3 class="service-title">UI/UX Designer</h3>
+            <p class="service-description">
+              Creating intuitive and beautiful user experiences that delight and
+              engage users.
+            </p>
+          </div>
+
+          <div class="service-card service-tertiary">
+            <div class="service-icon">
+              <i class="fas fa-mobile-alt"></i>
+            </div>
+            <h3 class="service-title">Mobile Developer</h3>
+            <p class="service-description">
+              Developing responsive mobile applications for iOS and Android
+              platforms.
+            </p>
+          </div>
+        </div>
+
+        <div class="contact-cta">
+          <h3 class="cta-title">Ready to work together?</h3>
+          <p class="cta-description">
+            Let's discuss your project and bring your ideas to life. I'm always
+            excited to work on new challenges.
+          </p>
+          <div class="contact-info">
+            <div class="contact-label">Get in touch</div>
+            <div class="contact-email">ftftorres30@gmail.com</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>
